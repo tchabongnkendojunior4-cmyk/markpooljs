@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Task 01</title>
+    <style>
+        .box {
+            width: 320px; height: 160px;
+            margin: 40px auto; padding: 12px;
+            box-sizing: border-box;
+            border: 2px solid #999; background: #fff;
+            display: flex; align-items: center; justify-content: center;
+            font: 16px/1.4 system-ui, sans-serif;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="box" class="box">Clicks: 0</div>
+    <script src=" ./task01.js"></script>
+</body>
+</html>
