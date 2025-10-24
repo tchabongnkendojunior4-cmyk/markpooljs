@@ -1,5 +1,7 @@
 <?php
-require("task01.php");
+require("task02.php");
 
-discover_type(21, "Maria", 3.53, true);
+dog_bark(1);
+dog_bark(-42);
+dog_bark(3);
 ?>
